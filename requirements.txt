@@ -1,0 +1,12 @@
+streamlit
+pandas
+numpy
+matplotlib
+seaborn
+nltk
+gensim
+wordcloud
+scikit-learn
+google-generativeai
+langdetect
+googletrans==4.0.0-rc1
