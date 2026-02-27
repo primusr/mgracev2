@@ -25,6 +25,9 @@ st.title("📊 TeachAIRs: AI-Powered Student Feedback Analyzer")
 # ------------------------------
 # API Setup
 # ------------------------------
+
+GEMINI_API_KEY = "AIzaSyB-5YS3-Mlj3-AajOj9PwCt4yqRdoTnBHU"
+api_key = st.secrets["GEMINI_API_KEY"]
 genai.configure(api_key=st.secrets["GEMINI_API_KEY"])
 gemini_model = genai.GenerativeModel("gemini-2.5-flash")
 
